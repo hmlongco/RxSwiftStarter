@@ -1,0 +1,43 @@
+PODS:
+  - Resolver (1.0.5)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+
+DEPENDENCIES:
+  - Resolver (~> 1.0.1)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Resolver
+    - RxAtomic
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :branch: master
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :branch: master
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :commit: 5f5790de918406d7f01acdaa7e79d6daba18c1a7
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: 5f5790de918406d7f01acdaa7e79d6daba18c1a7
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+SPEC CHECKSUMS:
+  Resolver: dddd4db46402a7543b1a6ff6007b57bcf59083e9
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+
+PODFILE CHECKSUM: 3274f2a011dbd13dc5344f45720b5431ebdad7e2
+
+COCOAPODS: 1.5.3
